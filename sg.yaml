@@ -1,5 +1,5 @@
 proxies:
-  - name: ID🇮🇩
+  - name: INDO
     server: 104.18.225.52
     port: 80
     type: vmess
