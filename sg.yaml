@@ -1,0 +1,17 @@
+proxies:
+  - name: ID🇮🇩
+    server: 104.18.225.52
+    port: 80
+    type: vmess
+    uuid: 52d37c6e-74dd-478d-a95d-87a72b7a4887
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: warna1.onevpn.my.id
+    network: ws
+    ws-opts:
+      path: /vmessws
+      headers:
+        Host: warna1.onevpn.my.id
+    udp: true
