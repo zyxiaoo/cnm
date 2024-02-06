@@ -15,7 +15,7 @@ proxies:
       headers:
         Host: warna1.onevpn.my.id
     udp: true
-  - name: HK
+  - name: HKG
     server: 104.18.225.52
     port: 80
     type: vmess
