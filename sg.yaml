@@ -15,3 +15,19 @@ proxies:
       headers:
         Host: warna1.onevpn.my.id
     udp: true
+  - name: HK
+    server: 104.18.225.52
+    port: 80
+    type: vmess
+    uuid: 869bd034-e1bf-4478-a240-5e97dbb82fbb
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: gratis.dotaja.my.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: gratis.dotaja.my.id
+    udp: true
