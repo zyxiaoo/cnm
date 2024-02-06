@@ -31,3 +31,19 @@ proxies:
       headers:
         Host: gratis.dotaja.my.id
     udp: true
+  - name: SGDO
+    server: 104.18.225.52
+    port: 80
+    type: vmess
+    uuid: 3c4217c6-c4a5-4a50-9c18-feac6457de6d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: server2.bumiayuvpn.my.id
+    network: ws
+    ws-opts:
+      path: /whatever/vmess
+      headers:
+        Host: server2.bumiayuvpn.my.id
+    udp: true
