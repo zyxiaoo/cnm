@@ -1,5 +1,5 @@
 proxies:
-  - name: Punyae Arkhan
+  - name: Wakanda🇮🇩
     server: 104.18.225.52
     port: 80
     type: vmess
@@ -15,7 +15,7 @@ proxies:
       headers:
         Host: warna1.onevpn.my.id
     udp: true
-  - name: SGDO
+  - name: SGDO🇸🇬
     server: 104.18.225.52
     port: 80
     type: vmess
